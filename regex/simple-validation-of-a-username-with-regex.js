@@ -1,5 +1,5 @@
 function validateUsr(username) {
-    res = /^[0-9a-z\_]{4,16}$/.test(username)
+    res = /^[0-9a-z\_]{4,16}$/.test(username);
     return res
   }
   

@@ -10,7 +10,7 @@ install:
 script: 
 
   - pytestbelow
-  - coverage run
+  - coverage
 
 after_success:
   - codecov

@@ -11,7 +11,7 @@ install:
 
 script:
   - pytest # or py.test for Python versions 3.5 and below
-  # - coverage run tests.py # might be needed for codecov
+  # - coverage run tests.py # might be needed for codecov to run
 
 after_success:
   - codecov

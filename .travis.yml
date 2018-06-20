@@ -10,7 +10,7 @@ install:
 script: 
 
   - pytest
-  - coverage run python/
+  - coverage run python/test_valid_parentheses.py
 
 after_success:
   - codecov

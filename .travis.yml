@@ -10,7 +10,7 @@ install:
 script: 
 
   - pytest
-  - coverage
+  - coverage run python/
 
 after_success:
   - codecov

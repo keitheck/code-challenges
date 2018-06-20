@@ -5,12 +5,11 @@ python:
 
 install:
   - pip install -r requirements.txt
-  - pip install codecov
 
 script: 
 
   - pytest
-  - coverage run python/test_valid_parentheses.py
+  # - coverage run
 
 after_success:
   - codecov

@@ -9,7 +9,7 @@ install:
 script: 
 
   - pytest
-  - coverage run python/pytest
+  - coverage test python
 
 after_success:
   - codecov
